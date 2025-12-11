@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Layout" nsURI="https://Layout" nsPrefix="Lay">
+  <eClassifiers xsi:type="ecore:EClass" name="Layout">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="board" upperBound="-1"
+        eType="#//Board" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Board">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="layout" eType="#//Layout"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="piste" upperBound="-1"
+        eType="#//Piste" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="couche" upperBound="-1"
+        eType="#//Couche" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Couche_externe" eSuperTypes="#//Couche"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Couche" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Couche_interne" eSuperTypes="#//Couche"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Piste"/>
+</ecore:EPackage>

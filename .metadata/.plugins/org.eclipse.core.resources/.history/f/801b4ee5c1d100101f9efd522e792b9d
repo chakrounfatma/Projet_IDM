@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NL:netlist
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:NL="https://Netlist"
+    xsi:schemaLocation="https://Netlist Netlist.ecore">
+  <instancecomp>
+    <composant
+        href="../catalogue/Cataloguetest.xmi#//@composant.0"/>
+  </instancecomp>
+  <connexion>
+    <port href="../catalogue/Cataloguetest.xmi#//@composant.0/@port.0"/>
+  </connexion>
+  <connexion>
+    <port href="../catalogue/Cataloguetest.xmi#//@composant.0/@port.0"/>
+  </connexion>
+</NL:netlist>

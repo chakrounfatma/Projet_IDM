@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Netlist" nsURI="https://Netlist" nsPrefix="NL">
+  <eClassifiers xsi:type="ecore:EClass" name="netlist">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commentaire" upperBound="-1"
+        eType="#//Commentaire" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="instancecomp" upperBound="-1"
+        eType="#//Instancecomp" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connexion" upperBound="-1"
+        eType="#//Connexion" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Connexion">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="port" eType="ecore:EClass ../catalogue/Catalogue.ecore#//Port"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Instancecomp">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="composant" eType="ecore:EClass ../catalogue/Catalogue.ecore#//Composant"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Commentaire">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="netlist" eType="#//netlist"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="instancecomp" eType="#//Instancecomp"/>
+  </eClassifiers>
+</ecore:EPackage>
