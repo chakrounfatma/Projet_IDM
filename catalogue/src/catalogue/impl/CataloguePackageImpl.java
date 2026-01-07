@@ -167,7 +167,7 @@ public class CataloguePackageImpl extends EPackageImpl implements CataloguePacka
 	 * @generated
 	 */
 	@Override
-	public EAttribute getComposant_Marque() {
+	public EAttribute getComposant_Nom() {
 		return (EAttribute)composantEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -177,7 +177,7 @@ public class CataloguePackageImpl extends EPackageImpl implements CataloguePacka
 	 * @generated
 	 */
 	@Override
-	public EAttribute getComposant_Nom() {
+	public EAttribute getComposant_Marque() {
 		return (EAttribute)composantEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -286,8 +286,8 @@ public class CataloguePackageImpl extends EPackageImpl implements CataloguePacka
 		composantEClass = createEClass(COMPOSANT);
 		createEReference(composantEClass, COMPOSANT__EMPREINTE);
 		createEReference(composantEClass, COMPOSANT__CONTRAINTE);
-		createEAttribute(composantEClass, COMPOSANT__MARQUE);
 		createEAttribute(composantEClass, COMPOSANT__NOM);
+		createEAttribute(composantEClass, COMPOSANT__MARQUE);
 		createEAttribute(composantEClass, COMPOSANT__PORT);
 		createEReference(composantEClass, COMPOSANT__CATALOGUE);
 
@@ -335,8 +335,8 @@ public class CataloguePackageImpl extends EPackageImpl implements CataloguePacka
 		initEClass(composantEClass, Composant.class, "Composant", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getComposant_Empreinte(), this.getEmpreinte(), null, "empreinte", null, 0, 1, Composant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getComposant_Contrainte(), this.getContrainte(), null, "contrainte", null, 0, -1, Composant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getComposant_Marque(), ecorePackage.getEString(), "marque", null, 0, 1, Composant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getComposant_Nom(), ecorePackage.getEString(), "nom", null, 1, 1, Composant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getComposant_Marque(), ecorePackage.getEString(), "marque", null, 0, 1, Composant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getComposant_Port(), ecorePackage.getEInt(), "port", null, 0, 1, Composant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getComposant_Catalogue(), this.getCatalogue(), null, "catalogue", null, 0, 1, Composant.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 

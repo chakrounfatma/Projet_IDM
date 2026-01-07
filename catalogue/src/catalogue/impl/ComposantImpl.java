@@ -34,8 +34,8 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <ul>
  *   <li>{@link catalogue.impl.ComposantImpl#getEmpreinte <em>Empreinte</em>}</li>
  *   <li>{@link catalogue.impl.ComposantImpl#getContrainte <em>Contrainte</em>}</li>
- *   <li>{@link catalogue.impl.ComposantImpl#getMarque <em>Marque</em>}</li>
  *   <li>{@link catalogue.impl.ComposantImpl#getNom <em>Nom</em>}</li>
+ *   <li>{@link catalogue.impl.ComposantImpl#getMarque <em>Marque</em>}</li>
  *   <li>{@link catalogue.impl.ComposantImpl#getPort <em>Port</em>}</li>
  *   <li>{@link catalogue.impl.ComposantImpl#getCatalogue <em>Catalogue</em>}</li>
  * </ul>
@@ -64,26 +64,6 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 	protected EList<Contrainte> contrainte;
 
 	/**
-	 * The default value of the '{@link #getMarque() <em>Marque</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getMarque()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String MARQUE_EDEFAULT = null;
-
-	/**
-	 * The cached value of the '{@link #getMarque() <em>Marque</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getMarque()
-	 * @generated
-	 * @ordered
-	 */
-	protected String marque = MARQUE_EDEFAULT;
-
-	/**
 	 * The default value of the '{@link #getNom() <em>Nom</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -102,6 +82,26 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 	 * @ordered
 	 */
 	protected String nom = NOM_EDEFAULT;
+
+	/**
+	 * The default value of the '{@link #getMarque() <em>Marque</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getMarque()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String MARQUE_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getMarque() <em>Marque</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getMarque()
+	 * @generated
+	 * @ordered
+	 */
+	protected String marque = MARQUE_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getPort() <em>Port</em>}' attribute.
@@ -216,29 +216,6 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 	 * @generated
 	 */
 	@Override
-	public String getMarque() {
-		return marque;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setMarque(String newMarque) {
-		String oldMarque = marque;
-		marque = newMarque;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, CataloguePackage.COMPOSANT__MARQUE, oldMarque, marque));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public String getNom() {
 		return nom;
 	}
@@ -254,6 +231,29 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 		nom = newNom;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, CataloguePackage.COMPOSANT__NOM, oldNom, nom));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String getMarque() {
+		return marque;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setMarque(String newMarque) {
+		String oldMarque = marque;
+		marque = newMarque;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, CataloguePackage.COMPOSANT__MARQUE, oldMarque, marque));
 	}
 
 	/**
@@ -347,10 +347,10 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 				return getEmpreinte();
 			case CataloguePackage.COMPOSANT__CONTRAINTE:
 				return getContrainte();
-			case CataloguePackage.COMPOSANT__MARQUE:
-				return getMarque();
 			case CataloguePackage.COMPOSANT__NOM:
 				return getNom();
+			case CataloguePackage.COMPOSANT__MARQUE:
+				return getMarque();
 			case CataloguePackage.COMPOSANT__PORT:
 				return getPort();
 			case CataloguePackage.COMPOSANT__CATALOGUE:
@@ -376,11 +376,11 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 				getContrainte().clear();
 				getContrainte().addAll((Collection<? extends Contrainte>)newValue);
 				return;
-			case CataloguePackage.COMPOSANT__MARQUE:
-				setMarque((String)newValue);
-				return;
 			case CataloguePackage.COMPOSANT__NOM:
 				setNom((String)newValue);
+				return;
+			case CataloguePackage.COMPOSANT__MARQUE:
+				setMarque((String)newValue);
 				return;
 			case CataloguePackage.COMPOSANT__PORT:
 				setPort((Integer)newValue);
@@ -406,11 +406,11 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 			case CataloguePackage.COMPOSANT__CONTRAINTE:
 				getContrainte().clear();
 				return;
-			case CataloguePackage.COMPOSANT__MARQUE:
-				setMarque(MARQUE_EDEFAULT);
-				return;
 			case CataloguePackage.COMPOSANT__NOM:
 				setNom(NOM_EDEFAULT);
+				return;
+			case CataloguePackage.COMPOSANT__MARQUE:
+				setMarque(MARQUE_EDEFAULT);
 				return;
 			case CataloguePackage.COMPOSANT__PORT:
 				setPort(PORT_EDEFAULT);
@@ -434,10 +434,10 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 				return empreinte != null;
 			case CataloguePackage.COMPOSANT__CONTRAINTE:
 				return contrainte != null && !contrainte.isEmpty();
-			case CataloguePackage.COMPOSANT__MARQUE:
-				return MARQUE_EDEFAULT == null ? marque != null : !MARQUE_EDEFAULT.equals(marque);
 			case CataloguePackage.COMPOSANT__NOM:
 				return NOM_EDEFAULT == null ? nom != null : !NOM_EDEFAULT.equals(nom);
+			case CataloguePackage.COMPOSANT__MARQUE:
+				return MARQUE_EDEFAULT == null ? marque != null : !MARQUE_EDEFAULT.equals(marque);
 			case CataloguePackage.COMPOSANT__PORT:
 				return port != PORT_EDEFAULT;
 			case CataloguePackage.COMPOSANT__CATALOGUE:
@@ -456,10 +456,10 @@ public class ComposantImpl extends MinimalEObjectImpl.Container implements Compo
 		if (eIsProxy()) return super.toString();
 
 		StringBuilder result = new StringBuilder(super.toString());
-		result.append(" (marque: ");
-		result.append(marque);
-		result.append(", nom: ");
+		result.append(" (nom: ");
 		result.append(nom);
+		result.append(", marque: ");
+		result.append(marque);
 		result.append(", port: ");
 		result.append(port);
 		result.append(')');

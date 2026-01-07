@@ -1,0 +1,15 @@
+grammar fr.n7.gls.er.xtext.ER with org.eclipse.xtext.common.Terminals
+generate er "http://www.n7.fr/gls/er/xtext/ER"
+Model: 'model' name=ID 'is'
+(entities+=Entity | relations+=Relation)*
+ 'end' ;
+
+ Entity: 'entity' name=ID ';' ;
+
+ Relation:
+ 'relation' name=ID
+ 'between' parts+=Part ('and' parts+=Part)* ';' ;
+
+ Part: name = ID 'is' cardinal=Cardinal entity=[Entity] ;
+
+ enum Cardinal : One = "one" | Many = "many" ;

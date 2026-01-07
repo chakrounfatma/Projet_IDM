@@ -17,8 +17,8 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link catalogue.Composant#getEmpreinte <em>Empreinte</em>}</li>
  *   <li>{@link catalogue.Composant#getContrainte <em>Contrainte</em>}</li>
- *   <li>{@link catalogue.Composant#getMarque <em>Marque</em>}</li>
  *   <li>{@link catalogue.Composant#getNom <em>Nom</em>}</li>
+ *   <li>{@link catalogue.Composant#getMarque <em>Marque</em>}</li>
  *   <li>{@link catalogue.Composant#getPort <em>Port</em>}</li>
  *   <li>{@link catalogue.Composant#getCatalogue <em>Catalogue</em>}</li>
  * </ul>
@@ -63,28 +63,6 @@ public interface Composant extends EObject {
 	EList<Contrainte> getContrainte();
 
 	/**
-	 * Returns the value of the '<em><b>Marque</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Marque</em>' attribute.
-	 * @see #setMarque(String)
-	 * @see catalogue.CataloguePackage#getComposant_Marque()
-	 * @model
-	 * @generated
-	 */
-	String getMarque();
-
-	/**
-	 * Sets the value of the '{@link catalogue.Composant#getMarque <em>Marque</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Marque</em>' attribute.
-	 * @see #getMarque()
-	 * @generated
-	 */
-	void setMarque(String value);
-
-	/**
 	 * Returns the value of the '<em><b>Nom</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -105,6 +83,28 @@ public interface Composant extends EObject {
 	 * @generated
 	 */
 	void setNom(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Marque</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Marque</em>' attribute.
+	 * @see #setMarque(String)
+	 * @see catalogue.CataloguePackage#getComposant_Marque()
+	 * @model
+	 * @generated
+	 */
+	String getMarque();
+
+	/**
+	 * Sets the value of the '{@link catalogue.Composant#getMarque <em>Marque</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Marque</em>' attribute.
+	 * @see #getMarque()
+	 * @generated
+	 */
+	void setMarque(String value);
 
 	/**
 	 * Returns the value of the '<em><b>Port</b></em>' attribute.

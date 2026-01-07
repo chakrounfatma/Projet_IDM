@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package
+			uri = "http://www.n7.fr/gls/er/xtext/ER"
+			class = "fr.n7.gls.er.xtext.er.ErPackage"
+			genModel = "model/generated/ER.genmodel" />
+	</extension>
+</plugin>

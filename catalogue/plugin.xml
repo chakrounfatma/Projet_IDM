@@ -7,11 +7,11 @@
 <plugin>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated Catalogue -->
+      <!-- @generated catalogue -->
       <package
             uri="https://catalogue"
             class="catalogue.CataloguePackage"
-            genModel="Catalogue.genmodel"/>
+            genModel="catalogue.genmodel"/>
    </extension>
 
 </plugin>

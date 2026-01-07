@@ -122,22 +122,22 @@ public interface CataloguePackage extends EPackage {
 	int COMPOSANT__CONTRAINTE = 1;
 
 	/**
-	 * The feature id for the '<em><b>Marque</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COMPOSANT__MARQUE = 2;
-
-	/**
 	 * The feature id for the '<em><b>Nom</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int COMPOSANT__NOM = 3;
+	int COMPOSANT__NOM = 2;
+
+	/**
+	 * The feature id for the '<em><b>Marque</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMPOSANT__MARQUE = 3;
 
 	/**
 	 * The feature id for the '<em><b>Port</b></em>' attribute.
@@ -313,17 +313,6 @@ public interface CataloguePackage extends EPackage {
 	EReference getComposant_Contrainte();
 
 	/**
-	 * Returns the meta object for the attribute '{@link catalogue.Composant#getMarque <em>Marque</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Marque</em>'.
-	 * @see catalogue.Composant#getMarque()
-	 * @see #getComposant()
-	 * @generated
-	 */
-	EAttribute getComposant_Marque();
-
-	/**
 	 * Returns the meta object for the attribute '{@link catalogue.Composant#getNom <em>Nom</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -333,6 +322,17 @@ public interface CataloguePackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getComposant_Nom();
+
+	/**
+	 * Returns the meta object for the attribute '{@link catalogue.Composant#getMarque <em>Marque</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Marque</em>'.
+	 * @see catalogue.Composant#getMarque()
+	 * @see #getComposant()
+	 * @generated
+	 */
+	EAttribute getComposant_Marque();
 
 	/**
 	 * Returns the meta object for the attribute '{@link catalogue.Composant#getPort <em>Port</em>}'.
@@ -477,20 +477,20 @@ public interface CataloguePackage extends EPackage {
 		EReference COMPOSANT__CONTRAINTE = eINSTANCE.getComposant_Contrainte();
 
 		/**
-		 * The meta object literal for the '<em><b>Marque</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute COMPOSANT__MARQUE = eINSTANCE.getComposant_Marque();
-
-		/**
 		 * The meta object literal for the '<em><b>Nom</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
 		EAttribute COMPOSANT__NOM = eINSTANCE.getComposant_Nom();
+
+		/**
+		 * The meta object literal for the '<em><b>Marque</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COMPOSANT__MARQUE = eINSTANCE.getComposant_Marque();
 
 		/**
 		 * The meta object literal for the '<em><b>Port</b></em>' attribute feature.
