@@ -1,0 +1,70 @@
+/**
+ */
+package netlist.tests;
+
+import junit.textui.TestRunner;
+
+import netlist.Connexion;
+import netlist.NetlistFactory;
+
+/**
+ * <!-- begin-user-doc -->
+ * A test case for the model object '<em><b>Connexion</b></em>'.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public class ConnexionTest extends ElementTest {
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public static void main(String[] args) {
+		TestRunner.run(ConnexionTest.class);
+	}
+
+	/**
+	 * Constructs a new Connexion test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ConnexionTest(String name) {
+		super(name);
+	}
+
+	/**
+	 * Returns the fixture for this Connexion test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected Connexion getFixture() {
+		return (Connexion)fixture;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
+	@Override
+	protected void setUp() throws Exception {
+		setFixture(NetlistFactory.eINSTANCE.createConnexion());
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
+	@Override
+	protected void tearDown() throws Exception {
+		setFixture(null);
+	}
+
+} //ConnexionTest

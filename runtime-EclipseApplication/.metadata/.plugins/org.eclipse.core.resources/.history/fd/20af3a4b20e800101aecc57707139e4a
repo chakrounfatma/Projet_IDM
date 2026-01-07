@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue:Catalogue xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:catalogue="https://catalogue">
+  <composant marque="ddd" nom="carte electronique ">
+    <contrainte/>
+  </composant>
+</catalogue:Catalogue>

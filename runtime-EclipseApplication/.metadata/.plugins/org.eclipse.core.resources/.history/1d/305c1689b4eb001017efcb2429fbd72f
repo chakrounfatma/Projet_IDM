@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netlist:Netlist xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:netlist="https://netlist">
+  <element xsi:type="netlist:Instancecomp" id="5">
+    <port/>
+    <port/>
+  </element>
+  <element xsi:type="netlist:Connexion"/>
+  <element xsi:type="netlist:Commentaire"/>
+  <element xsi:type="netlist:Connexion"/>
+  <element xsi:type="netlist:Instancecomp">
+    <port/>
+  </element>
+</netlist:Netlist>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue:Catalogue xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:catalogue="https://catalogue">
+  <composant nom="carte electronique " marque="comp1">
+    <empreinte longueur="3.6" largeur="3.5" TaillePort="3.2"/>
+    <contrainte texte="composant laid "/>
+    <contrainte texte="composant joli"/>
+  </composant>
+</catalogue:Catalogue>

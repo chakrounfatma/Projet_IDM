@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:catalogue="https://catalogue" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_NB300OgOEfCKXvXznONRdQ" selectedViews="_8MmO4OgPEfCzx_HjmPaJPg" version="15.2.0.202303281325">
+    <semanticResources>test.catalogue</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_8MmO4OgPEfCzx_HjmPaJPg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DVF7kOgQEfCzx_HjmPaJPg" name="new CatalogueDiagram" repPath="#_DU7jgOgQEfCzx_HjmPaJPg" changeId="1767387688264">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']"/>
+        <target xmi:type="catalogue:Catalogue" href="test.catalogue#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_DU7jgOgQEfCzx_HjmPaJPg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DVYPcOgQEfCzx_HjmPaJPg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_DVY2gOgQEfCzx_HjmPaJPg" type="Sirius" element="_DU7jgOgQEfCzx_HjmPaJPg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_PIblwegbEfCzx_HjmPaJPg" type="2001" element="_PIYicOgbEfCzx_HjmPaJPg">
+          <children xmi:type="notation:Node" xmi:id="_PIblxOgbEfCzx_HjmPaJPg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_PIblxegbEfCzx_HjmPaJPg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_PIblxugbEfCzx_HjmPaJPg" type="3003" element="_PIZwkOgbEfCzx_HjmPaJPg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_PIblx-gbEfCzx_HjmPaJPg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIblyOgbEfCzx_HjmPaJPg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_PIblwugbEfCzx_HjmPaJPg" fontName="Segoe UI" fontHeight="20"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIblw-gbEfCzx_HjmPaJPg" x="495" y="135" width="241" height="240"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_DVY2gegQEfCzx_HjmPaJPg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DVb50OgQEfCzx_HjmPaJPg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_DVb50egQEfCzx_HjmPaJPg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_PIYicOgbEfCzx_HjmPaJPg" name="carte electronique " width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="catalogue:Composant" href="test.catalogue#//@composant.0"/>
+      <semanticElements xmi:type="catalogue:Composant" href="test.catalogue#//@composant.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_PIZwkOgbEfCzx_HjmPaJPg" labelSize="20" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@nodeMappings[name='ComposantNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@nodeMappings[name='ComposantNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_DVBqIOgQEfCzx_HjmPaJPg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer"/>
+    <target xmi:type="catalogue:Catalogue" href="test.catalogue#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

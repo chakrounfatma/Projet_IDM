@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="netlist" version="12.0.0.2017041100">
+  <ownedViewpoints name="netlistViewpoint" modelFileExtension="netlist">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="NetlistDiagram" domainClass="netlist::Netlist" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="InstancecompNode" domainClass="netlist::Instancecomp">
+          <style xsi:type="style:SquareDescription" labelSize="30" labelExpression="feature:id" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_chocolate']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ConnexionNode" domainClass="netlist::Connexion">
+          <style xsi:type="style:NoteDescription" labelSize="30" labelExpression="feature:id" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="PortNode" domainClass="netlist::Port">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="30" labelExpression="feature:id" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_purple']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CommentaireNode" domainClass="netlist::Commentaire">
+          <style xsi:type="style:NoteDescription" labelSize="30" labelExpression="feature:texte" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+          </style>
+        </nodeMappings>
+        <toolSections name="NetlistTools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateInstancecomp" nodeMappings="//@ownedViewpoints[name='netlistViewpoint']/@ownedRepresentations[name='NetlistDiagram']/@defaultLayer/@nodeMappings[name='InstancecompNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="netlist::Instancecomp" referenceName="element" variableName="newInstancecomp"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreatePort" nodeMappings="//@ownedViewpoints[name='netlistViewpoint']/@ownedRepresentations[name='NetlistDiagram']/@defaultLayer/@nodeMappings[name='PortNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="netlist::Port" referenceName="port" variableName="newPort"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="netlist.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
