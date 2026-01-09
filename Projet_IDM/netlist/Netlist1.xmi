@@ -4,5 +4,9 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:netlist="https://netlist">
-  <element xsi:type="netlist:Instancecomp"/>
+  <element xsi:type="netlist:Instancecomp"
+      id="R1">
+    <composant
+        href="../catalogue/Catalogue.xmi#//@composant.0"/>
+  </element>
 </netlist:Netlist>

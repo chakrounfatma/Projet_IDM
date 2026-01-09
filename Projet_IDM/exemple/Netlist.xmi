@@ -4,8 +4,13 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:netlist="https://netlist">
-  <element xsi:type="netlist:Instancecomp">
+  <element xsi:type="netlist:Instancecomp"
+      id="dasd">
     <composant
         href="Catalogue.xmi#//@composant.0"/>
   </element>
+  <element xsi:type="netlist:Commentaire"
+      id="comm dasd"
+      instancecomp="//@element.0"
+      texte="Bismilah ra7man ra7im"/>
 </netlist:Netlist>
