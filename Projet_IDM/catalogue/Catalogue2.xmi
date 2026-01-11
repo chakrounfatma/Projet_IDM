@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue:Catalogue
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:catalogue="https://catalogue">
+  <composant
+      nom="  Res"
+      marque="LV"
+      port="-2"
+      catalogue="/">
+    <empreinte
+        longueur="-100.0"
+        largeur="-10.0"
+        TaillePort="-2.0"/>
+  </composant>
+</catalogue:Catalogue>

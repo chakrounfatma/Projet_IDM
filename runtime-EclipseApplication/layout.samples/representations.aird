@@ -8,6 +8,10 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']"/>
         <target xmi:type="layout:Layout" href="test.layout#/"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_s3TbQO1yEfCCr8Duag4OSQ" name="new LayoutDiagram" repPath="#_s3SNIO1yEfCCr8Duag4OSQ" changeId="1767977364782">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']"/>
+        <target xmi:type="layout:Layout" href="test.layout#/"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <diagram:DSemanticDiagram uid="_-05E0OglEfC0w8osbIh6EQ">
@@ -127,8 +131,6 @@
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='CoucheInterneNode']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_s4xLlegnEfC0w8osbIh6EQ" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="layout:Couche_interne" href="test.layout#//@board.0/@couche_interne.1"/>
-      <semanticElements xmi:type="layout:Couche_interne" href="test.layout#//@board.0/@couche_interne.1"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -149,8 +151,6 @@
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='CoucheExterneNode']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_s4xyo-gnEfC0w8osbIh6EQ" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="layout:Couche_externe" href="test.layout#//@board.0/@couche_externe.1"/>
-      <semanticElements xmi:type="layout:Couche_externe" href="test.layout#//@board.0/@couche_externe.1"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -160,8 +160,6 @@
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='CoucheExterneNode']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_s4xypugnEfC0w8osbIh6EQ" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="layout:Couche_externe" href="test.layout#//@board.0/@couche_externe.2"/>
-      <semanticElements xmi:type="layout:Couche_externe" href="test.layout#//@board.0/@couche_externe.2"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -194,6 +192,154 @@
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_-05r4OglEfC0w8osbIh6EQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer"/>
+    <target xmi:type="layout:Layout" href="test.layout#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_s3SNIO1yEfCCr8Duag4OSQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_s3dzUO1yEfCCr8Duag4OSQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_s3dzUe1yEfCCr8Duag4OSQ" type="Sirius" element="_s3SNIO1yEfCCr8Duag4OSQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_s3lvIO1yEfCCr8Duag4OSQ" type="2001" element="_s3fBcO1yEfCCr8Duag4OSQ">
+          <children xmi:type="notation:Node" xmi:id="_s3oycO1yEfCCr8Duag4OSQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s3oyce1yEfCCr8Duag4OSQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s3uSAO1yEfCCr8Duag4OSQ" type="3003" element="_s3fogO1yEfCCr8Duag4OSQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s3uSAe1yEfCCr8Duag4OSQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3uSAu1yEfCCr8Duag4OSQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s3lvIe1yEfCCr8Duag4OSQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3lvIu1yEfCCr8Duag4OSQ" x="32" y="15" width="358" height="360"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s3qAkO1yEfCCr8Duag4OSQ" type="2001" element="_s3g2oO1yEfCCr8Duag4OSQ">
+          <children xmi:type="notation:Node" xmi:id="_s3qAk-1yEfCCr8Duag4OSQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s3qAlO1yEfCCr8Duag4OSQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s3vgIO1yEfCCr8Duag4OSQ" type="3016" element="_s3g2oe1yEfCCr8Duag4OSQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s3vgIe1yEfCCr8Duag4OSQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3vgIu1yEfCCr8Duag4OSQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s3qAke1yEfCCr8Duag4OSQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3qAku1yEfCCr8Duag4OSQ" x="240" y="30" width="136" height="330"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s3rOsO1yEfCCr8Duag4OSQ" type="2001" element="_s3hdsu1yEfCCr8Duag4OSQ">
+          <children xmi:type="notation:Node" xmi:id="_s3rOs-1yEfCCr8Duag4OSQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s3rOtO1yEfCCr8Duag4OSQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s3wHMO1yEfCCr8Duag4OSQ" type="3016" element="_s3hds-1yEfCCr8Duag4OSQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s3wHMe1yEfCCr8Duag4OSQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3wHMu1yEfCCr8Duag4OSQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s3rOse1yEfCCr8Duag4OSQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3rOsu1yEfCCr8Duag4OSQ" x="45" y="30" width="150" height="316"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s3sc1e1yEfCCr8Duag4OSQ" type="2001" element="_s3ir0u1yEfCCr8Duag4OSQ">
+          <children xmi:type="notation:Node" xmi:id="_s3tD4O1yEfCCr8Duag4OSQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s3tD4e1yEfCCr8Duag4OSQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s3xVUO1yEfCCr8Duag4OSQ" type="3003" element="_s3ir0-1yEfCCr8Duag4OSQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s3xVUe1yEfCCr8Duag4OSQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3xVUu1yEfCCr8Duag4OSQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s3sc1u1yEfCCr8Duag4OSQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3sc1-1yEfCCr8Duag4OSQ" x="120" y="135" width="8" height="106"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_s3tD4u1yEfCCr8Duag4OSQ" type="2001" element="_s3jS4e1yEfCCr8Duag4OSQ">
+          <children xmi:type="notation:Node" xmi:id="_s3tq8O1yEfCCr8Duag4OSQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_s3tq8e1yEfCCr8Duag4OSQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_s3x8YO1yEfCCr8Duag4OSQ" type="3003" element="_s3jS4u1yEfCCr8Duag4OSQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_s3x8Ye1yEfCCr8Duag4OSQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3x8Yu1yEfCCr8Duag4OSQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_s3tD4-1yEfCCr8Duag4OSQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3tD5O1yEfCCr8Duag4OSQ" x="75" y="75" width="91" height="61"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_yJ7R0O16EfCCr8Duag4OSQ" type="2001" element="_yJInpO16EfCCr8Duag4OSQ">
+          <children xmi:type="notation:Node" xmi:id="_yJ744O16EfCCr8Duag4OSQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yJ744e16EfCCr8Duag4OSQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yJ8f8O16EfCCr8Duag4OSQ" type="3003" element="_yJInpe16EfCCr8Duag4OSQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yJ8f8e16EfCCr8Duag4OSQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yJ8f8u16EfCCr8Duag4OSQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_yJ7R0e16EfCCr8Duag4OSQ" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yJ7R0u16EfCCr8Duag4OSQ" x="90" y="225" width="76" height="46"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_s3dzUu1yEfCCr8Duag4OSQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_s3j58O1yEfCCr8Duag4OSQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_s3j58e1yEfCCr8Duag4OSQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s3fBcO1yEfCCr8Duag4OSQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="layout:Board" href="test.layout#//@board.0"/>
+      <semanticElements xmi:type="layout:Board" href="test.layout#//@board.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_s3fogO1yEfCCr8Duag4OSQ" labelSize="12" labelPosition="node" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='BoardNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='BoardNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s3g2oO1yEfCCr8Duag4OSQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="layout:Couche_interne" href="test.layout#//@board.0/@couche_interne.0"/>
+      <semanticElements xmi:type="layout:Couche_interne" href="test.layout#//@board.0/@couche_interne.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_s3g2oe1yEfCCr8Duag4OSQ" labelSize="12" labelPosition="node" color="217,196,215">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='CoucheInterneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='CoucheInterneNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s3hdsu1yEfCCr8Duag4OSQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="layout:Couche_externe" href="test.layout#//@board.0/@couche_externe.0"/>
+      <semanticElements xmi:type="layout:Couche_externe" href="test.layout#//@board.0/@couche_externe.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_s3hds-1yEfCCr8Duag4OSQ" labelSize="12" labelPosition="node" color="253,206,137">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='CoucheExterneNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='CoucheExterneNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s3ir0u1yEfCCr8Duag4OSQ" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="layout:Piste" href="test.layout#//@board.0/@couche_interne.0/@piste.0"/>
+      <semanticElements xmi:type="layout:Piste" href="test.layout#//@board.0/@couche_interne.0/@piste.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_s3ir0-1yEfCCr8Duag4OSQ" labelSize="12" labelPosition="node" color="0,0,0">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='PisteNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='PisteNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_s3jS4e1yEfCCr8Duag4OSQ" name="Resistance" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="layout:Instancecomp" href="test.layout#//@board.0/@couche_externe.0/@instancecomp.0"/>
+      <semanticElements xmi:type="layout:Instancecomp" href="test.layout#//@board.0/@couche_externe.0/@instancecomp.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_s3jS4u1yEfCCr8Duag4OSQ" labelPosition="node" color="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='InstancecompNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='InstancecompNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_yJInpO16EfCCr8Duag4OSQ" name="Capacité " width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="layout:Instancecomp" href="test.layout#//@board.0/@couche_externe.0/@instancecomp.1"/>
+      <semanticElements xmi:type="layout:Instancecomp" href="test.layout#//@board.0/@couche_externe.0/@instancecomp.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" uid="_yJInpe16EfCCr8Duag4OSQ" labelPosition="node" color="255,245,181">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:SquareDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='InstancecompNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer/@nodeMappings[name='InstancecompNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_s3S0MO1yEfCCr8Duag4OSQ"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/layout.design/description/layout.odesign#//@ownedViewpoints[name='LayoutViewpoint']/@ownedRepresentations[name='LayoutDiagram']/@defaultLayer"/>
     <target xmi:type="layout:Layout" href="test.layout#/"/>
   </diagram:DSemanticDiagram>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VerifieNetlistLayout
+Bundle-SymbolicName: VerifieNetlistLayout
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.emf.common;bundle-version="2.29.0",
+ org.eclipse.emf.ecore;bundle-version="2.35.0",
+ layout;bundle-version="1.0.0",
+ org.eclipse.emf.ecore.xmi
+Automatic-Module-Name: VerifieNetlistLayout
+Bundle-RequiredExecutionEnvironment: JavaSE-17

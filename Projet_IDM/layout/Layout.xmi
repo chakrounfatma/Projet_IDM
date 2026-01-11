@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout:Layout
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:layout="https://layout">
+  <board layout="/">
+    <couche_interne>
+      <piste/>
+    </couche_interne>
+    <couche_externe>
+      <instancecomp
+          x="133"
+          y="133"
+          name="2"/>
+      <instancecomp
+          x="133"
+          y="133"
+          name="2"/>
+    </couche_externe>
+    <couche_externe>
+      <instancecomp
+          x="133"
+          y="133"
+          name="2"/>
+      <instancecomp
+          x="133"
+          y="133"
+          name="2"/>
+    </couche_externe>
+  </board>
+</layout:Layout>

@@ -4,11 +4,9 @@
     <couche_interne>
       <piste/>
     </couche_interne>
-    <couche_interne/>
     <couche_externe>
-      <instancecomp/>
+      <instancecomp name="Resistance"/>
+      <instancecomp name="Capacite"/>
     </couche_externe>
-    <couche_externe/>
-    <couche_externe/>
   </board>
 </layout:Layout>

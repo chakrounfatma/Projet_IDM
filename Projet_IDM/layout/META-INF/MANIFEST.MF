@@ -14,5 +14,6 @@ Export-Package: layout,
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport,
  catalogue;visibility:=reexport,
- netlist;visibility:=reexport
+ netlist;visibility:=reexport,
+ org.eclipse.emf.ecore.xmi;bundle-version="2.35.0"
 Bundle-ActivationPolicy: lazy

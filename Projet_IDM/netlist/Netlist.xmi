@@ -4,5 +4,11 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:netlist="https://netlist">
-  <element xsi:type="netlist:Instancecomp"/>
+  <element xsi:type="netlist:Instancecomp"
+      id="bob ine"/>
+  <element xsi:type="netlist:Connexion"/>
+  <element xsi:type="netlist:Commentaire"
+      id=" 2 "
+      instancecomp="//@element.0"
+      texte="12 23"/>
 </netlist:Netlist>

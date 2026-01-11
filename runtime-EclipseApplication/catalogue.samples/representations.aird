@@ -4,7 +4,7 @@
     <semanticResources>test.catalogue</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_8MmO4OgPEfCzx_HjmPaJPg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DVF7kOgQEfCzx_HjmPaJPg" name="new CatalogueDiagram" repPath="#_DU7jgOgQEfCzx_HjmPaJPg" changeId="1767954034929">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DVF7kOgQEfCzx_HjmPaJPg" name="new CatalogueDiagram" repPath="#_DU7jgOgQEfCzx_HjmPaJPg" changeId="1767974205994">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']"/>
         <target xmi:type="catalogue:Catalogue" href="test.catalogue#/"/>
       </ownedRepresentationDescriptors>
@@ -44,35 +44,24 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fthWcuggEfCzx_HjmPaJPg"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_ftgIUeggEfCzx_HjmPaJPg" fontName="Segoe UI" fontHeight="50" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftgIUuggEfCzx_HjmPaJPg" x="1665" y="975" width="524" height="376"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_l_uMQOutEfCgUInhCgb_mw" type="2001" element="_l_sXE-utEfCgUInhCgb_mw">
-          <children xmi:type="notation:Node" xmi:id="_l_uMQ-utEfCgUInhCgb_mw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_l_uMROutEfCgUInhCgb_mw" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_l_uzUOutEfCgUInhCgb_mw" type="3013" element="_l_s-IOutEfCgUInhCgb_mw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_l_uzUeutEfCgUInhCgb_mw" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l_uzUuutEfCgUInhCgb_mw"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_l_uMQeutEfCgUInhCgb_mw" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l_uMQuutEfCgUInhCgb_mw" x="1485" y="300" width="374" height="226"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ftgIUuggEfCzx_HjmPaJPg" x="1470" y="960" width="584" height="466"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_DVY2gegQEfCzx_HjmPaJPg"/>
         <edges xmi:type="notation:Edge" xmi:id="_PKM18OvBEfCgUInhCgb_mw" type="4001" element="_PHxNDevBEfCgUInhCgb_mw" source="_PIblwegbEfCzx_HjmPaJPg" target="_ftgIUOggEfCzx_HjmPaJPg">
           <children xmi:type="notation:Node" xmi:id="_PKNdAOvBEfCgUInhCgb_mw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKNdAevBEfCgUInhCgb_mw" x="-2" y="2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKNdAevBEfCgUInhCgb_mw" x="-4" y="3"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_PKNdAuvBEfCgUInhCgb_mw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKNdA-vBEfCgUInhCgb_mw" x="-1" y="4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKNdA-vBEfCgUInhCgb_mw" x="-2" y="6"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_PKNdBOvBEfCgUInhCgb_mw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKNdBevBEfCgUInhCgb_mw" y="3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PKNdBevBEfCgUInhCgb_mw" x="-1" y="3"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_PKM18evBEfCgUInhCgb_mw"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_PKM18uvBEfCgUInhCgb_mw" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PKM18-vBEfCgUInhCgb_mw" points="[-302, 284, 201, -190]$[-352, 331, 151, -143]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PKM18-vBEfCgUInhCgb_mw" points="[-352, 231, 346, -228]$[-481, 316, 217, -143]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PKOrIOvBEfCgUInhCgb_mw" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PKOrIevBEfCgUInhCgb_mw" id="(0.3988549618320611,0.3803191489361702)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PKOrIevBEfCgUInhCgb_mw" id="(0.3578767123287671,0.30686695278969955)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_d-phsOvBEfCgUInhCgb_mw" type="4001" element="_d8Pt8uvBEfCgUInhCgb_mw" source="_PIblwegbEfCzx_HjmPaJPg" target="_ZCnksOggEfCzx_HjmPaJPg">
           <children xmi:type="notation:Node" xmi:id="_d-qIwOvBEfCgUInhCgb_mw" type="6001">
@@ -90,28 +79,12 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d-qv0OvBEfCgUInhCgb_mw" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d-qv0evBEfCgUInhCgb_mw" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_d-qv0uvBEfCgUInhCgb_mw" type="4001" element="_d8Pt_-vBEfCgUInhCgb_mw" source="_PIblwegbEfCzx_HjmPaJPg" target="_l_uMQOutEfCgUInhCgb_mw">
-          <children xmi:type="notation:Node" xmi:id="_d-qv1uvBEfCgUInhCgb_mw" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d-qv1-vBEfCgUInhCgb_mw" x="4" y="-8"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_d-qv2OvBEfCgUInhCgb_mw" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d-qv2evBEfCgUInhCgb_mw" x="3" y="11"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_d-rW4OvBEfCgUInhCgb_mw" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d-rW4evBEfCgUInhCgb_mw" x="6" y="14"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_d-qv0-vBEfCgUInhCgb_mw"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_d-qv1OvBEfCgUInhCgb_mw" fontName="Segoe UI" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d-qv1evBEfCgUInhCgb_mw" points="[-352, -62, 409, 71]$[-676, -118, 85, 15]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d-rW4uvBEfCgUInhCgb_mw" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d-rW4-vBEfCgUInhCgb_mw" id="(0.3502673796791444,0.9336283185840708)"/>
-        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DVb50OgQEfCzx_HjmPaJPg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_DVb50egQEfCzx_HjmPaJPg"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_PIYicOgbEfCzx_HjmPaJPg" name="carte electronique " outgoingEdges="_PHxNDevBEfCgUInhCgb_mw _d8Pt8uvBEfCgUInhCgb_mw _d8Pt_-vBEfCgUInhCgb_mw" width="3" height="3" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_PIYicOgbEfCzx_HjmPaJPg" name="Resistance " outgoingEdges="_PHxNDevBEfCgUInhCgb_mw _d8Pt8uvBEfCgUInhCgb_mw" width="3" height="3" resizeKind="NSEW">
       <target xmi:type="catalogue:Composant" href="test.catalogue#//@composant.0"/>
       <semanticElements xmi:type="catalogue:Composant" href="test.catalogue#//@composant.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -123,24 +96,13 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@nodeMappings[name='ComposantNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZCfB0uggEfCzx_HjmPaJPg" name="composant laid " incomingEdges="_d8Pt8uvBEfCgUInhCgb_mw" width="3" height="3" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ZCfB0uggEfCzx_HjmPaJPg" name="d(self,Capacite)>10mm " incomingEdges="_d8Pt8uvBEfCgUInhCgb_mw" width="3" height="3" resizeKind="NSEW">
       <target xmi:type="catalogue:Contrainte" href="test.catalogue#//@composant.0/@contrainte.0"/>
       <semanticElements xmi:type="catalogue:Contrainte" href="test.catalogue#//@composant.0/@contrainte.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:Note" uid="_ZCfB0-ggEfCzx_HjmPaJPg" labelSize="25" labelPosition="node" color="246,139,139">
-        <description xmi:type="style:NoteDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@nodeMappings[name='ContrainteNode']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@nodeMappings[name='ContrainteNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_l_sXE-utEfCgUInhCgb_mw" name="composant joli" incomingEdges="_d8Pt_-vBEfCgUInhCgb_mw" width="3" height="3" resizeKind="NSEW">
-      <target xmi:type="catalogue:Contrainte" href="test.catalogue#//@composant.0/@contrainte.1"/>
-      <semanticElements xmi:type="catalogue:Contrainte" href="test.catalogue#//@composant.0/@contrainte.1"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:Note" uid="_l_s-IOutEfCgUInhCgb_mw" labelSize="25" labelPosition="node" color="246,139,139">
         <description xmi:type="style:NoteDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@nodeMappings[name='ContrainteNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@nodeMappings[name='ContrainteNode']"/>
@@ -171,14 +133,6 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_d8Pt9-vBEfCgUInhCgb_mw" size="2">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@edgeMappings[name='CompContRelation']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_d8Pt-OvBEfCgUInhCgb_mw" labelSize="12"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@edgeMappings[name='CompContRelation']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_d8Pt_-vBEfCgUInhCgb_mw" sourceNode="_PIYicOgbEfCzx_HjmPaJPg" targetNode="_l_sXE-utEfCgUInhCgb_mw">
-      <target xmi:type="catalogue:Composant" href="test.catalogue#//@composant.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_d8PuAOvBEfCgUInhCgb_mw" size="2">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@edgeMappings[name='CompContRelation']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_d8PuAevBEfCgUInhCgb_mw" labelSize="12"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/catalogue.design/description/catalogue.odesign#//@ownedViewpoints[name='catalogueViewpoint']/@ownedRepresentations[name='CatalogueDiagram']/@defaultLayer/@edgeMappings[name='CompContRelation']"/>
     </ownedDiagramElements>
